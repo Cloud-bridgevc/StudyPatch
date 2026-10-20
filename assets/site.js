@@ -80,6 +80,6 @@
         if (!r.ok) throw new Error('HubSpot responded ' + r.status);
       }
       form.hidden = true; $('#formOk').hidden = false; $('#formOk').focus();
-    } catch (x) { err.textContent = 'Sorry, we couldn’t send that. Please try again or email us.'; btn.disabled = false; }
+    } catch (x) { err.textContent = 'Sorry, we couldn’t send that. Please try again in a moment.'; btn.disabled = false; }
   });
 })();

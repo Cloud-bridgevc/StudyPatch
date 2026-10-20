@@ -1,6 +1,6 @@
 # StudyPatch
 
-AI-native learning diagnostics and personalised practice for schools and tutoring centres. This repository holds:
+Website: studypatch.site. AI-native learning diagnostics and personalised practice for schools and tutoring centres. This repository holds:
 
 | Path | What it is |
 |---|---|

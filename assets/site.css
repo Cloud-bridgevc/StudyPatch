@@ -61,3 +61,10 @@ footer{background:var(--soft);border-top:1px solid var(--line);padding:2.5rem 0;
   .hero .wrap,.demo{grid-template-columns:1fr}.panel{position:static}
   .form-grid{grid-template-columns:1fr}section{padding:3rem 0}
 }
+
+.team{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,300px));gap:1.2rem;margin-top:2rem}
+.person{text-align:center;padding:1.8rem 1.2rem}.person h3{margin:.8rem 0 .2rem}.person .role{color:var(--muted);margin:0;font-weight:600}
+.avatar{width:84px;height:84px;border-radius:50%;margin:0 auto;display:grid;place-items:center;font:800 1.6rem var(--font);background:var(--indigo-100);color:var(--indigo-800)}
+.avatar.teal{background:var(--teal-100);color:var(--teal-800)}
+.foot{display:flex;justify-content:space-between;align-items:flex-start;gap:1.5rem;flex-wrap:wrap}
+.social{display:inline-flex;align-items:center;gap:.45rem;font-weight:700;color:var(--indigo-800);text-decoration:none}.social:hover{text-decoration:underline}

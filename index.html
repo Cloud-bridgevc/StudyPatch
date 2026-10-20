@@ -4,6 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>StudyPatch: find the learning gap, patch it with practice</title>
+<link rel="canonical" href="https://studypatch.site/">
+<meta property="og:title" content="StudyPatch: find the learning gap, patch it with practice">
+<meta property="og:url" content="https://studypatch.site/">
+<meta property="og:type" content="website">
 <meta name="description" content="StudyPatch helps schools and tutoring centres find specific learning gaps with short adaptive assessments, then generate targeted practice that teachers review and approve.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%234f46e5'/%3E%3Cpath d='M9 17.5l4.5 4.5L23 11' fill='none' stroke='%23fbbf24' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="assets/base.css">
@@ -13,9 +17,9 @@
 <a class="skip" href="#main">Skip to content</a>
 <header class="nav"><div class="wrap">
   <a class="brand" href="#top"><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#4f46e5"/><path d="M9 17.5l4.5 4.5L23 11" fill="none" stroke="#fbbf24" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>StudyPatch</a>
-  <button class="btn btn-ghost menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainnav">Menu</button>
+  <button type="button" class="btn btn-ghost menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainnav">Menu</button>
   <nav id="mainnav" aria-label="Main">
-    <a href="#how">How it works</a><a href="#demo">Sample assessment</a><a href="#educators">Educators</a><a href="#usecases">Use cases</a><a href="#trust">Safeguards</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a>
+    <a href="#how">How it works</a><a href="#demo">Sample assessment</a><a href="#educators">Educators</a><a href="#usecases">Use cases</a><a href="#trust">Safeguards</a><a href="#team">Team</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a>
     <a class="btn btn-secondary btn-sm" href="app/index.html">Open prototype</a><a class="btn btn-primary btn-sm" href="#request">Request a demo</a>
   </nav>
 </div></header>
@@ -109,6 +113,14 @@
   <p class="note" style="color:#c7d2fe;margin-top:1.5rem">Compliance requirements (FERPA, COPPA, UK/EU GDPR and local rules) vary by customer. Design notes are in the documentation and are not legal advice.</p>
 </div></section>
 
+<section class="alt" id="team"><div class="wrap">
+  <div class="eyebrow">Our team</div><h2 class="big">The people behind StudyPatch</h2>
+  <div class="team">
+    <article class="card person"><div class="avatar" aria-hidden="true">AY</div><h3>Abullahi Yusuf</h3><p class="role">Founder &amp; CEO</p></article>
+    <article class="card person"><div class="avatar teal" aria-hidden="true">BB</div><h3>Bosipo Bello</h3><p class="role">Co-Founder &amp; CTO</p></article>
+  </div>
+</div></section>
+
 <section id="pricing"><div class="wrap">
   <div class="eyebrow">Pricing</div><h2 class="big">Simple plans that scale with learners</h2>
   <div class="pricing">
@@ -132,7 +144,7 @@
       <div><label for="f_size">Approx. number of students</label><select id="f_size" name="size"><option value="">Choose…</option><option>Under 50</option><option>50–200</option><option>200–1,000</option><option>1,000+</option></select></div>
       <div class="full"><label for="f_msg">What would you like to improve?</label><textarea id="f_msg" name="message" maxlength="600"></textarea></div>
       <div class="full hp" aria-hidden="true"><label>Leave blank <input name="website" tabindex="-1" autocomplete="off"></label></div>
-      <div class="full"><label class="check"><input type="checkbox" name="consent" required style="margin-top:.3em"> <span>I agree that StudyPatch may contact me about this request and process my details as described in the privacy notice. *</span></label>
+      <div class="full"><label class="check"><input type="checkbox" name="consent" required style="margin-top:.3em"> <span>I agree that StudyPatch may contact me about this request and process my details to respond to it. *</span></label>
       <label class="check"><input type="checkbox" name="marketing" style="margin-top:.3em"> <span>Also send me occasional product updates (optional).</span></label></div>
     </div>
     <p class="err" id="formErr" role="alert"></p>
@@ -155,7 +167,10 @@
 </div></section>
 </main>
 
-<footer><div class="wrap"><strong style="color:var(--indigo-950)">StudyPatch</strong> · Learning diagnostics and personalised practice · <a href="app/index.html">Interactive prototype</a><br>All students, classes and results shown are fictional. © 2026 StudyPatch (prototype).</div></footer>
+<footer><div class="wrap foot">
+  <div><strong style="color:var(--indigo-950)">StudyPatch</strong> · <a href="https://studypatch.site/">studypatch.site</a><br>Learning diagnostics and personalised practice · <a href="app/index.html">Interactive prototype</a><br>All students, classes and results shown in the demo are fictional. © 2026 StudyPatch.</div>
+  <a class="social" href="https://www.linkedin.com/company/studypatch/" target="_blank" rel="noopener noreferrer" aria-label="StudyPatch on LinkedIn (opens in a new tab)"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.4 20.5h-3.6v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.7H9.3V9h3.4v1.6c.5-.9 1.6-1.8 3.4-1.8 3.6 0 4.3 2.4 4.3 5.5v6.2zM5.3 7.4a2.1 2.1 0 110-4.200 2.1 2.1 0 010 4.200zM7.100 20.500H3.500V9h3.600v11.500z"/></svg> LinkedIn</a>
+</div></footer>
 
 <script src="assets/config.js"></script>
 <script src="assets/site.js"></script>
