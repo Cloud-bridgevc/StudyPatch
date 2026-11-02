@@ -28,6 +28,7 @@
     { q: 'Solve 3x − 5 = 16', o: ['x = 21', 'x = 7', 'x = 9'], a: 1, m: { 0: 'EQN_OPS' } }
   ];
   const qbox = $('#sampleQs');
+  if (!qbox) return; // pages without the sample assessment (privacy, terms)
   qbox.innerHTML = QS.map((x, i) => `<fieldset class="dq" style="border:1px solid var(--line)"><legend style="padding:0 .3rem"><b>Question ${i + 1}</b></legend><p>${esc(x.q)}</p>${x.o.map((t, j) => `<label><input type="radio" name="q${i}" value="${j}"> ${esc(t)}</label>`).join('')}</fieldset>`).join('');
 
   function showResults(ev) {

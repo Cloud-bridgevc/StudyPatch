@@ -34,3 +34,15 @@ Real in the prototype: adaptive selection within teacher limits, skill-evidence 
 Simulated: AI generation (deterministic templates that produce the same schema Bedrock would, with computed answers), authentication (role switch), persistence (browser `localStorage`), email/HubSpot submission (off until `assets/config.js` is filled in). Pricing on the website is illustrative.
 
 All people, classes and results are fictional. No legal review has been done; see the notes in `docs/architecture.md`.
+
+## Launch readiness (glow-up)
+
+- **Home page:** problem section with three sourced statistics, what-we-solve, comparison table, AI section, team (Founder/CEO and Co-founder/CTO), roadmap, scroll-reveal motion (respects reduced motion). Shared styles/scripts: `assets/glow.css`, `assets/glow.js`.
+- **New pages:** `privacy.html`, `terms.html` (review drafts).
+- **Ship assets:** `og-image.png`, icons, `manifest.webmanifest`, `sitemap.xml`, `robots.txt`, `_headers`, `vercel.json` security headers, Organization JSON-LD with founders.
+
+### Content to confirm before launch
+- Contact email `hello@studypatch.site` is a placeholder — set up the mailbox/forward or replace it.
+- Statistics (NAEP 2022, RAND 2024, J-PAL) — re-check figures and links in `index.html`.
+- Founder bios describe roles only; replace with confirmed biographies.
+- Privacy notice and terms need operator details and governing law.
